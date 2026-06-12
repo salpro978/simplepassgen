@@ -1,4 +1,4 @@
-type CharsetPool = {
+interface CharsetPool {
     enabled: boolean
     chars: string
     min: number
